@@ -1,0 +1,22 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "abc",
+  "password": "abc@123"
+}
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "bas": 500000,
+    "lta": 1000,
+    "hra": 10000,
+    "fa":0,
+    "inv":50000,
+    "rent":20000,
+    "city_type":"metro",
+    "med":0
+}
